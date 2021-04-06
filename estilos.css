@@ -1,0 +1,75 @@
+
+body{
+    background-color: #e8c9a0;   
+}
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: gray;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: black;
+	font-family: monospace;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: fuchsia ;
+	transition: all .3s;
+	
+	
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+
+
+h1{
+    
+    font-family: monospace;
+    color: black; 
+}
+
+h2{
+	font-family: monospace;
+    color: fuchsia;
+}
+
+h3{
+	font-family: monospace;
+    color: chocolate;
+}
+h6{
+	font-family: monospace;
+    color: deeppink;
+        
+}
+
+   
+	p{
+		text-align: center;
+		color: white;
+    }
+    	
